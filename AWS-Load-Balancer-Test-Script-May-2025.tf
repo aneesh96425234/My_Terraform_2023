@@ -1,4 +1,5 @@
 # Terraform script to create VPC, Subnets, IGW, Route Tables, NACLs, Security Groups, ALB, and EC2 instances
+#  Change the access_key, secret_key, Instance SSH public_key and Instance userdata.
 
 terraform {
   required_providers {
